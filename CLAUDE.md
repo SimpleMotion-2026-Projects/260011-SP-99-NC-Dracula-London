@@ -17,7 +17,7 @@ Show control and automation systems for the Dracula London theatrical production
 |------|-------|-------|---------|
 | Martyn Sands | martyn@martynsands.com | +44 7791 122086 | Kindred Partners Ltd |
 | Amanda Murray | amanda@kindred-partners.com | | Kindred Partners International Ltd |
-| Stuart Tucker | stuart@tgrprods.com | | TGR Productions |
+| Stuart Tucker | stuart@tgrprods.com | +44 7720 285352 | TGR Productions |
 
 ## Commands
 
