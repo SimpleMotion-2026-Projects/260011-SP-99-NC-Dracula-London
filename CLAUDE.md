@@ -9,10 +9,14 @@ Show control and automation systems for the Dracula London theatrical production
 ## Client
 
 **Kindred Partners Ltd**
-- Contact: Martyn Sands
-- Email: martyn@martynsands.com
-- Phone: +44 7791 122086
 - Address: 3rd Floor, Joel House, 17-19 Garrick Street, London WC2E 9AR
+
+### Contacts
+
+| Name | Email | Phone | Company |
+|------|-------|-------|---------|
+| Martyn Sands | martyn@martynsands.com | +44 7791 122086 | Kindred Partners Ltd |
+| Amanda Murray | amanda@kindred-partners.com | | Dorian UK Production Ltd |
 
 ## Commands
 

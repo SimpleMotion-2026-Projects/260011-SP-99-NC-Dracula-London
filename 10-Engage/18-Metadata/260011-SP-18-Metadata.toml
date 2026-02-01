@@ -21,6 +21,17 @@ phone = "+44 7791 122086"
 first = "Martyn"
 last = "Sands"
 
+[client.contact2]
+salutation = "Ms"
+title = ""
+email = "amanda@kindred-partners.com"
+phone = ""
+company = "Dorian UK Production Ltd"
+
+[client.contact2.name]
+first = "Amanda"
+last = "Murray"
+
 [simplemotion]
 entity = "SimpleMotion.Projects Pty Ltd"
 short_name = "SimpleMotion"
