@@ -1,0 +1,293 @@
+# Request for Quote - E-Stop Boxes
+# Project: 260011-SP Dracula London
+# Version: 1
+
+[document]
+type = "Request for Quote"
+number = "SI-RQ-260011-0001"
+title = "E-Stop Boxes"
+issue_date = "2026-02-02"
+issue_date_formatted = "Sun 02-02-2026"
+response_due = "2026-02-09"
+response_due_formatted = "Sun 09-02-2026"
+status = "draft"  # draft | sent | received | accepted | declined
+
+[project]
+id = "260011-SP"
+title = "Dracula London"
+
+[supplier]
+name = "RS Components"
+short_name = "RS"
+website = "https://uk.rs-online.com"
+address_line1 = "Birchington Road"
+address_line2 = "Corby, Northamptonshire NN17 9RS, United Kingdom"
+
+[supplier.contact]
+name = ""
+email = ""
+phone = ""
+
+[requester]
+entity = "SimpleMotion.Projects Pty Ltd"
+name = "Greg Gowans"
+email = "greg.gowans@simplemotion.com"
+phone = "+61 418 888 604"
+
+[delivery]
+address = """
+Stage Door
+Noël Coward Theatre
+85-88 St Martin's Lane
+London WC2N 4AU
+United Kingdom
+"""
+contact = "Stuart Tucker"
+contact_phone = "+44 7720 285352"
+contact_email = "stuart@tgrprods.com"
+required_by = ""
+notes = "Stage door accessed via passageway off St Martin's Court (rear of theatre)"
+
+# =============================================================================
+# LINE ITEMS - RS Components Basket (2026-01-28)
+# =============================================================================
+
+[[items]]
+line = 1
+supplier_part = "168-2629"
+description = "Idec YW Series Twist Release Illuminated Emergency Stop Push Button, Panel Mount, 22mm Cutout, 2NC, IP65"
+manufacturer = "Idec"
+mfr_part = "YW1L-V4E02Q4R"
+quantity = 2
+unit_price = 21.16
+total_price = 42.32
+currency = "GBP"
+
+[[items]]
+line = 2
+supplier_part = "874-2298"
+description = "Siemens Yellow Plastic SIRIUS ACT 3SU18 Push Button Enclosure - 1 Hole 22mm Diameter"
+manufacturer = "Siemens"
+mfr_part = "3SU1801-0AA00-0AA2"
+quantity = 2
+unit_price = 11.36
+total_price = 22.72
+currency = "GBP"
+
+[[items]]
+line = 3
+supplier_part = "208-5180"
+description = "RS PRO Cable Mount XLR Connector, Female, 75 V, 7 Way, Nickel Plating"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 4
+unit_price = 8.70
+total_price = 34.80
+currency = "GBP"
+
+[[items]]
+line = 4
+supplier_part = "208-5184"
+description = "RS PRO Panel Mount XLR Connector, Female, 50 V, 7 Way, Nickel Plating"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 2
+unit_price = 13.88
+total_price = 27.76
+currency = "GBP"
+
+[[items]]
+line = 5
+supplier_part = "261-7560"
+description = "Amphenol Industrial Chassis Mount XLR Connector, Male, IP40, 133 V, 4 Way, Silver Plating"
+manufacturer = "Amphenol Industrial"
+mfr_part = "AC4MDZB"
+quantity = 1
+unit_price = 5.89
+total_price = 5.89
+currency = "GBP"
+
+[[items]]
+line = 6
+supplier_part = "045-7908"
+description = "RS PRO Cable Mount XLR Connector, Male, 250 V ac, 4 Way, Silver Plating"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit_price = 3.75
+total_price = 3.75
+currency = "GBP"
+
+[[items]]
+line = 7
+supplier_part = "909-3714"
+description = "Neutrik EtherCon Series 2-Port RJ45 Female Adapter, Cat5e, Unshielded"
+manufacturer = "Neutrik"
+mfr_part = "RSNE8FDP-B"
+quantity = 1
+unit_price = 15.45
+total_price = 15.45
+currency = "GBP"
+
+[[items]]
+line = 8
+supplier_part = "222-9358"
+description = "RS PRO Steel Wall Box, IP66, 200 mm x 200 mm x 150 mm"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit_price = 37.14
+total_price = 37.14
+currency = "GBP"
+
+[[items]]
+line = 9
+supplier_part = "827-4293"
+description = "RS PRO Control Cable, 7 Cores 0.5 mm² 20 AWG, Unscreened, 50 m, Grey Polyvinyl Chloride Sheath"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit = "Reel of 50m"
+unit_price = 77.97
+total_price = 77.97
+currency = "GBP"
+
+[[items]]
+line = 10
+supplier_part = "669-4664"
+description = "RS PRO Black Nylon Cable Gland, M20 Thread, 6mm min., 12mm max., IP68"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit = "Bag of 5"
+unit_price = 6.66
+total_price = 6.66
+currency = "GBP"
+
+[[items]]
+line = 11
+supplier_part = "178-7289"
+description = "RS PRO Insulated Crimp Bootlace Ferrule, 10mm Pin Length, 1.0mm Pin Diameter, 0.5mm² Wire Size, White"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 100
+unit = "Bag of 100"
+unit_price = 0.027
+total_price = 2.70
+currency = "GBP"
+
+[[items]]
+line = 12
+supplier_part = "041-1362"
+description = "RS PRO, 0.5 m Cat6 Ethernet Cable, Green RJ45 to Male RJ45 Male Polyvinyl Chloride Sheath, S/FTP"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit_price = 2.83
+total_price = 2.83
+currency = "GBP"
+
+[[items]]
+line = 13
+supplier_part = "046-7406"
+description = "RS PRO Steel Slotted DIN Rail, Top Hat Compatible, 500mm x 35mm x 7.5mm"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit_price = 4.56
+total_price = 4.56
+currency = "GBP"
+
+[[items]]
+line = 14
+supplier_part = "883-7548"
+description = "WAGO 221 Series Lever Connector, 3-Way, 32A, 24 → 12 AWG Wire, Cage Clamp Termination"
+manufacturer = "WAGO"
+mfr_part = "221-413"
+quantity = 1
+unit = "Pack of 10"
+unit_price = 5.36
+total_price = 5.36
+currency = "GBP"
+
+[[items]]
+line = 15
+supplier_part = "056-0596"
+description = "RS PRO Pozi M3 Pan Steel Machine Screws DIN 7985 x 10.0mm"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit = "Bag of 100"
+unit_price = 3.32
+total_price = 3.32
+currency = "GBP"
+
+[[items]]
+line = 16
+supplier_part = "052-4281"
+description = "RS PRO, Bright Zinc Plated Steel Lock Nut, DIN 985, M3"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit = "Bag of 100"
+unit_price = 4.78
+total_price = 4.78
+currency = "GBP"
+
+[[items]]
+line = 17
+supplier_part = "023-2563"
+description = "RS PRO HSS Step Drill Bit 4mm x 30mm"
+manufacturer = "RS PRO"
+mfr_part = ""
+quantity = 1
+unit_price = 48.25
+total_price = 48.25
+currency = "GBP"
+
+[[items]]
+line = 18
+supplier_part = "016-6608"
+description = "Neutrik Cable Mount XLR Connector, Male, 50 V, 7 Way, Silver over Nickel Plating"
+manufacturer = "Neutrik"
+mfr_part = "NC7MXX"
+quantity = 4
+unit_price = 7.97
+total_price = 31.88
+currency = "GBP"
+
+# =============================================================================
+# TOTALS
+# =============================================================================
+
+[totals]
+subtotal = 378.14
+vat_rate = 20.0
+vat_amount = 75.62
+grand_total = 453.76
+currency = "GBP"
+delivery = "FREE"
+
+# =============================================================================
+# NOTES
+# =============================================================================
+
+[notes]
+text = """
+Parts for 2x E-Stop stations and 1x Safe IO Box for Dracula London show control system.
+
+Assembly: 2x Emergency Stop Stations
+- Idec twist-release illuminated E-Stop buttons
+- Siemens yellow enclosures
+- 7-pin XLR connectivity
+
+Assembly: 1x Safe IO Box
+- Steel wall box enclosure
+- EtherCon network connectivity
+- DIN rail mounted components
+"""
+
+[source]
+basket_date = "2026-01-28"
+basket_file = "RS-Components-Order-2026-01-28.csv"
+prepared_by = "Ryan Sturgeon"

@@ -1,0 +1,393 @@
+# Parts Tracking for Dracula London
+# Project: 260011-SP
+# Version: 1
+# Source: RS Components basket from Ryan Sturgeon (2026-01-28)
+
+[project]
+id = "260011-SP"
+title = "Dracula London"
+client = "Kindred Partners Ltd"
+
+# =============================================================================
+# ASSEMBLIES
+# =============================================================================
+
+[[assemblies]]
+id = "ESTOP-01"
+name = "Emergency Stop Station"
+description = "E-Stop panel with Idec twist-release button in Siemens enclosure"
+quantity = 2
+status = "pending"  # pending | ordered | partial | complete
+
+[[assemblies]]
+id = "IO-BOX-01"
+name = "Safe IO Box"
+description = "Field IO box for E-Stop system"
+quantity = 1
+status = "pending"
+
+# =============================================================================
+# PARTS LIST - RS Components Order
+# =============================================================================
+
+# --- E-Stop Components ---
+
+[[parts]]
+id = "ESTOP-BTN-01"
+description = "Idec YW Series Twist Release Illuminated Emergency Stop Push Button, Panel Mount, 22mm Cutout, 2NC, IP65"
+supplier = "RS Components"
+part_number = "168-2629"
+manufacturer = "Idec"
+mfr_part_number = "YW1L-V4E02Q4R"
+quantity_per_assembly = 1
+quantity_assemblies = 2
+quantity_total = 2
+unit_price_gbp = 21.16
+total_price_gbp = 42.32
+status = "pending"  # pending | ordered | shipped | received | installed
+assembly_ref = "ESTOP-01"
+notes = "Main E-Stop actuator - twist to release, illuminated"
+
+[[parts]]
+id = "ESTOP-ENC-01"
+description = "Siemens Yellow Plastic SIRIUS ACT 3SU18 Push Button Enclosure - 1 Hole 22mm Diameter"
+supplier = "RS Components"
+part_number = "874-2298"
+manufacturer = "Siemens"
+mfr_part_number = "3SU1801-0AA00-0AA2"
+quantity_per_assembly = 1
+quantity_assemblies = 2
+quantity_total = 2
+unit_price_gbp = 11.36
+total_price_gbp = 22.72
+status = "pending"
+assembly_ref = "ESTOP-01"
+notes = "Yellow enclosure for E-Stop button"
+
+# --- XLR Connectors ---
+
+[[parts]]
+id = "XLR-F-CABLE-01"
+description = "RS PRO Cable Mount XLR Connector, Female, 75 V, 7 Way, Nickel Plating"
+supplier = "RS Components"
+part_number = "208-5180"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 2
+quantity_assemblies = 2
+quantity_total = 4
+unit_price_gbp = 8.70
+total_price_gbp = 34.80
+status = "pending"
+assembly_ref = "ESTOP-01"
+notes = "7-pin cable mount female XLR"
+
+[[parts]]
+id = "XLR-F-PANEL-01"
+description = "RS PRO Panel Mount XLR Connector, Female, 50 V, 7 Way, Nickel Plating"
+supplier = "RS Components"
+part_number = "208-5184"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 1
+quantity_assemblies = 2
+quantity_total = 2
+unit_price_gbp = 13.88
+total_price_gbp = 27.76
+status = "pending"
+assembly_ref = "ESTOP-01"
+notes = "7-pin panel mount female XLR"
+
+[[parts]]
+id = "XLR-M-CHASSIS-01"
+description = "Amphenol Industrial Chassis Mount XLR Connector, Male, IP40, 133 V, 4 Way, Silver Plating"
+supplier = "RS Components"
+part_number = "261-7560"
+manufacturer = "Amphenol Industrial"
+mfr_part_number = "AC4MDZB"
+quantity_per_assembly = 1
+quantity_assemblies = 1
+quantity_total = 1
+unit_price_gbp = 5.89
+total_price_gbp = 5.89
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "4-pin chassis mount male XLR"
+
+[[parts]]
+id = "XLR-M-CABLE-01"
+description = "RS PRO Cable Mount XLR Connector, Male, 250 V ac, 4 Way, Silver Plating"
+supplier = "RS Components"
+part_number = "045-7908"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 1
+quantity_assemblies = 1
+quantity_total = 1
+unit_price_gbp = 3.75
+total_price_gbp = 3.75
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "4-pin cable mount male XLR"
+
+[[parts]]
+id = "XLR-M-CABLE-7P-01"
+description = "Neutrik Cable Mount XLR Connector, Male, 50 V, 7 Way, Silver over Nickel Plating"
+supplier = "RS Components"
+part_number = "016-6608"
+manufacturer = "Neutrik"
+mfr_part_number = "NC7MXX"
+quantity_per_assembly = 2
+quantity_assemblies = 2
+quantity_total = 4
+unit_price_gbp = 7.97
+total_price_gbp = 31.88
+status = "pending"
+assembly_ref = "ESTOP-01"
+notes = "7-pin Neutrik cable mount male XLR"
+
+# --- Network / EtherCon ---
+
+[[parts]]
+id = "ETHERCON-01"
+description = "Neutrik EtherCon Series 2-Port RJ45 Female Adapter, Cat5e, Unshielded"
+supplier = "RS Components"
+part_number = "909-3714"
+manufacturer = "Neutrik"
+mfr_part_number = "RSNE8FDP-B"
+quantity_per_assembly = 1
+quantity_assemblies = 1
+quantity_total = 1
+unit_price_gbp = 15.45
+total_price_gbp = 15.45
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "2-port EtherCon panel mount"
+
+[[parts]]
+id = "PATCH-CABLE-01"
+description = "RS PRO, 0.5 m Cat6 Ethernet Cable, Green RJ45 to Male RJ45 Male Polyvinyl Chloride Sheath, S/FTP"
+supplier = "RS Components"
+part_number = "041-1362"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 1
+quantity_assemblies = 1
+quantity_total = 1
+unit_price_gbp = 2.83
+total_price_gbp = 2.83
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "0.5m green Cat6 patch cable"
+
+# --- Enclosure / Box ---
+
+[[parts]]
+id = "ENCLOSURE-01"
+description = "RS PRO Steel Wall Box, IP66, 200 mm x 200 mm x 150 mm"
+supplier = "RS Components"
+part_number = "222-9358"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 1
+quantity_assemblies = 1
+quantity_total = 1
+unit_price_gbp = 37.14
+total_price_gbp = 37.14
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "Main enclosure for IO box"
+
+[[parts]]
+id = "CABLE-GLAND-01"
+description = "RS PRO Black Nylon Cable Gland, M20 Thread, 6mm min., 12mm max., IP68"
+supplier = "RS Components"
+part_number = "669-4664"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 5
+quantity_assemblies = 1
+quantity_total = 5
+unit_price_gbp = 6.66
+total_price_gbp = 6.66
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "Bag of 5 - M20 cable glands"
+
+# --- Cable ---
+
+[[parts]]
+id = "CABLE-7C-01"
+description = "RS PRO Control Cable, 7 Cores 0.5 mm² 20 AWG, Unscreened, 50 m, Grey Polyvinyl Chloride Sheath"
+supplier = "RS Components"
+part_number = "827-4293"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 50
+quantity_assemblies = 1
+quantity_total = 50
+unit_price_gbp = 77.97
+total_price_gbp = 77.97
+status = "pending"
+assembly_ref = "ESTOP-01"
+notes = "50m reel - 7-core control cable for E-Stop wiring"
+
+# --- Mounting / DIN Rail ---
+
+[[parts]]
+id = "DIN-RAIL-01"
+description = "RS PRO Steel Slotted DIN Rail, Top Hat Compatible, 500mm x 35mm x 7.5mm"
+supplier = "RS Components"
+part_number = "046-7406"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 1
+quantity_assemblies = 1
+quantity_total = 1
+unit_price_gbp = 4.56
+total_price_gbp = 4.56
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "500mm DIN rail"
+
+# --- Terminals / Connectors ---
+
+[[parts]]
+id = "WAGO-221-01"
+description = "WAGO 221 Series Lever Connector, 3-Way, 32A, 24 → 12 AWG Wire, Cage Clamp Termination"
+supplier = "RS Components"
+part_number = "883-7548"
+manufacturer = "WAGO"
+mfr_part_number = "221-413"
+quantity_per_assembly = 10
+quantity_assemblies = 1
+quantity_total = 10
+unit_price_gbp = 5.36
+total_price_gbp = 5.36
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "Pack of 10 - WAGO lever connectors"
+
+[[parts]]
+id = "FERRULE-01"
+description = "RS PRO Insulated Crimp Bootlace Ferrule, 10mm Pin Length, 1.0mm Pin Diameter, 0.5mm² Wire Size, White"
+supplier = "RS Components"
+part_number = "178-7289"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 100
+quantity_assemblies = 1
+quantity_total = 100
+unit_price_gbp = 0.027
+total_price_gbp = 2.70
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "Bag of 100 - 0.5mm² bootlace ferrules"
+
+# --- Hardware ---
+
+[[parts]]
+id = "SCREW-M3-01"
+description = "RS PRO Pozi M3 Pan Steel Machine Screws DIN 7985 x 10.0mm"
+supplier = "RS Components"
+part_number = "056-0596"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 100
+quantity_assemblies = 1
+quantity_total = 100
+unit_price_gbp = 3.32
+total_price_gbp = 3.32
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "Bag of 100 - M3x10 pan head screws"
+
+[[parts]]
+id = "NUT-M3-01"
+description = "RS PRO, Bright Zinc Plated Steel Lock Nut, DIN 985, M3"
+supplier = "RS Components"
+part_number = "052-4281"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 100
+quantity_assemblies = 1
+quantity_total = 100
+unit_price_gbp = 4.78
+total_price_gbp = 4.78
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "Bag of 100 - M3 lock nuts"
+
+# --- Tools ---
+
+[[parts]]
+id = "STEP-DRILL-01"
+description = "RS PRO HSS Step Drill Bit 4mm x 30mm"
+supplier = "RS Components"
+part_number = "023-2563"
+manufacturer = "RS PRO"
+mfr_part_number = ""
+quantity_per_assembly = 1
+quantity_assemblies = 1
+quantity_total = 1
+unit_price_gbp = 48.25
+total_price_gbp = 48.25
+status = "pending"
+assembly_ref = "IO-BOX-01"
+notes = "Step drill for panel cutouts"
+
+# =============================================================================
+# ORDER SUMMARY
+# =============================================================================
+
+[order_summary]
+supplier = "RS Components"
+basket_date = "2026-01-28"
+basket_source = "Ryan Sturgeon"
+total_parts = 18
+total_line_items = 18
+subtotal_gbp = 378.14
+vat_gbp = 75.62
+grand_total_gbp = 453.76
+delivery = "FREE"
+expected_delivery = "2026-01-29"
+all_items_in_stock = true
+
+# =============================================================================
+# PROCUREMENT TRACKING
+# =============================================================================
+
+[procurement]
+default_supplier = "RS Components"
+shipping_address = """
+Stage Door
+Noël Coward Theatre
+85-88 St Martin's Lane
+London WC2N 4AU
+United Kingdom
+"""
+shipping_notes = "Stage door accessed via passageway off St Martin's Court (rear of theatre)"
+contact = "Stuart Tucker"
+contact_email = "stuart@tgrprods.com"
+contact_phone = "+44 7720 285352"
+
+[[orders]]
+order_id = "RS-001"
+supplier = "RS Components"
+order_date = ""
+order_ref = ""
+basket_file = "Your Basket - RS - 2026-01-28 05_23_35.csv"
+parts = [
+    "ESTOP-BTN-01", "ESTOP-ENC-01", "XLR-F-CABLE-01", "XLR-F-PANEL-01",
+    "XLR-M-CHASSIS-01", "XLR-M-CABLE-01", "XLR-M-CABLE-7P-01",
+    "ETHERCON-01", "PATCH-CABLE-01", "ENCLOSURE-01", "CABLE-GLAND-01",
+    "CABLE-7C-01", "DIN-RAIL-01", "WAGO-221-01", "FERRULE-01",
+    "SCREW-M3-01", "NUT-M3-01", "STEP-DRILL-01"
+]
+estimated_total_gbp = 373.91
+shipping_method = ""
+tracking_number = ""
+expected_delivery = ""
+actual_delivery = ""
+status = "draft"  # draft | submitted | confirmed | shipped | delivered
+notes = "Parts for 2x E-Stop stations and 1x Safe IO Box"
