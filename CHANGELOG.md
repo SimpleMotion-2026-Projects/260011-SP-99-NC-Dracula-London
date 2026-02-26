@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|
+| v0.0.0.15 | 1a5de92 | 2026-02-26 04:39 UTC | Greg Gowans | Update submodules: .claude to v0.0.0.189 |
 |
 | v0.0.0.14 | 75b9c81 | 2026-02-07 16:32 UTC | Greg Gowans | Add quote v2 and draft email for 3-inspection revision | v0.0.0.13 | c19190f | 2026-02-07 11:44 UTC | Greg Gowans | Add CaptivateAV letter of compliance documents |
 | v0.0.0.12 | aaa2ede | 2026-02-06 19:52 UTC | Greg | Update CHANGELOG for v0.0.0.10 through v0.0.0.11 |
